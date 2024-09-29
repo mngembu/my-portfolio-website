@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mary Ara</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!--Navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#portfolio">My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mary Ara</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-lg ">    <!--navbar-dark bg-dark fixed-top-->  <!--taking this out removed the dark background from navbar-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#portfolio">Mary Ara - Data Scientist</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    
-    
+        </nav>
+        
+        
     <section id="home" class="home-section">
-        <div class="overlay">
-            <div class="home-content text-center">
-                <h1>Mary Ara</h1>
-                <p>Data Scientist</p>
+        
+        <div class="overlay d-flex">
+            <div class="container">
+                <!--<div class="home-content text-center">
+                    <h1>Mary Ara</h1>
+                    <p>Data Scientist</p>
+                </div> --> <br><br>
+                <div class="row display-4"> 
+                    <div class="hero-text">
+                        <br>
+                        <h1 class="display-4 hero-text">Unlock the Power of Your Data</h1>
+                        <p class="lead hero-text">Unlock the full potential of your data with tailored analytics solutions. As an experienced data scientist, I specialize in turning complex data into actionable insights that enhance decision-making, streamline operations, and drive revenue growth. Whether you're looking for a consultant or a full-time expert, I'm here to deliver impactful, data-driven results for your business.</p>
+                        <!--
+                        <form class="d-flex hero-text">
+                            <input class="form-control me-2" type="email" placeholder="Your Email Address" aria-label="Email">
+                            <button class="btn btn-success" type="submit">Subscribe</button>
+                        </form>   -->
+                        <p>For inquiries or collaborations, feel free to <a href="mailto:info@aramary.com" class="btn btn-primary">Email Me</a> directly at info@aramary.com .</p>
+                    </div>
+                    <!--<div class="hero-image">
+                        <img src="images/about/image4.jpg" alt="Mary Ara" class="img-fluid"> 
+                    </div>   -->
+                </div>
             </div>
         </div>
     </section>
+
     
     <!--About-->
     <section id="about" class="about-section container">
@@ -60,10 +80,10 @@
         <div class="square">
             <!--<div class="col-md-4">-->
                 <img src="images/about/image1.jpg" alt="Personal Picture" class="img-fluid personal-picture">
-            </div>
+            
             <!--<div class="col-md-8">-->
                 <h2 class="name-title">
-                    Mary Ara Ngembu<!--, <span class="designations">MS, CPA-CGA, FCCA</span> -->
+                    Mary Ara Ngembu, <span class="designations">MS, CPA-CGA, FCCA</span>
                 </h2>
                 <p>
                     I began my academic journey with a BSc. in Applied Accounting from Oxford Brookes University, UK, building on my initial BSc. degree from the 
@@ -196,7 +216,7 @@
                         </p>
                         <div class="card-links">
                             <a href="https://towardsdatascience.com/exploring-the-link-between-sleep-disorders-and-health-indicators-ace631d814b9" class="github-link btn btn-link" target="_blank">Blog Post</a>       
-                            <a href="#" class="github-link btn btn-link float-right" target="_blank">Github</a>
+                            <a href="https://github.com/mngembu/Sleep-disorder-analysis" class="github-link btn btn-link float-right" target="_blank">Github</a>
                         </div>
                     </div>
                 </div>

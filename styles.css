@@ -29,8 +29,8 @@ body {
 
 
 .home-section {
-    height: 100vh;
-    background: url('images/home/1.jpg') no-repeat center center/cover;
+    height: 110vh;
+    background: url('images/about/image4.jpg') no-repeat center center/cover;
     position: relative;
     display: flex;
     justify-content: center;
@@ -55,9 +55,10 @@ body {
 }
 
 .home-content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     margin: 0;
+    
 }
 
 .home-content p {
@@ -65,6 +66,47 @@ body {
     margin: 0;
 }
 
+
+
+
+
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-weight: 200;
+    font-size: 2.00rem;
+    color: #ffe600;
+   
+}
+
+.hero-text p {
+    font-size: 1.00rem;
+    color: #f7f6f6;
+}
+
+.hero-text .form-control {
+    max-width: 350px;
+}
+
+.hero-text .btn-success {
+    background-color: #ffe600;
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+
+.hero-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffe600;
+    float: right;
+    margin-right: 50px;
+}
 
 
 
@@ -377,6 +419,13 @@ body {
 
 .navbar {
     margin-bottom: 0;
+    background-color: transparent;  /* Make the navbar transparent */
+    position: absolute;             /* Position it on top of the content */
+    top: 0;                         /* Stick it to the top */
+    left: 0;
+    width: 100%;                    /* Ensure it stretches across the full width */
+    z-index: 1000;                  /* Ensure it stays above other content */
+
 }
 
 .header-image {
