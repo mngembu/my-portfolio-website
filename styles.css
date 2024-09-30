@@ -420,13 +420,14 @@ body {
 .navbar {
     margin-bottom: 0;
     background-color: transparent;  /* Make the navbar transparent */
-    position: absolute;             /* Position it on top of the content */
+    position: fixed;             /* Position it on top of the content and do not move when scrolling*/
     top: 0;                         /* Stick it to the top */
     left: 0;
     width: 100%;                    /* Ensure it stretches across the full width */
     z-index: 1000;                  /* Ensure it stays above other content */
 
 }
+
 
 .header-image {
     position: relative;
