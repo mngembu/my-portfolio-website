@@ -22,6 +22,11 @@ def home():
     return render_template("index.html")       #use th file path if in a sub folder in the templates folder
 
 
+@app.route('/resume')
+def home():
+    return render_template("index.html")
+
+
 if __name__ == '__main__':
     app.run(debug=True)
 
