@@ -23,8 +23,8 @@ def home():
 
 
 @app.route('/resume')
-def home():
-    return render_template("index.html")
+def resume():
+    return render_template("resume.html")
 
 
 if __name__ == '__main__':
